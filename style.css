@@ -1,0 +1,90 @@
+* {
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.nav-bar{
+    height: 100vh;
+    width: 100%;
+    background-image: url(WEBSITE/img/me3.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+span{
+    color: darkviolet;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    border: solid darkviolet;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: darkviolet;
+    border-radius: 8px;
+    transition: .3s;
+    border: solid white;
+    cursor:pointer;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.content h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+
+.content h3{
+    color: white;
+    font-size: 25px;
+}
+
+.content h4{
+    color: white;
+}
+
+.malawan{
+    color: darkviolet;
+}
+
+.dev{
+    color: red;
+}
